@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.75;
+}
+.hal1{
+    background-image: url(gambar/office-desk-workspace-table-background-from-top-view-flat-lay-objects-modern-minimal-design-desktop-creative-working-minimalism-concept_31965-15378.png);
+    height: 100%;
+    width: 100%;
+}
+.hal2{
+    background-image: url(gambar/overhead-perspective-businessman-working-his-desk-using-desktop-computer-keyboard-mouse-bank-card-graph-calculator-coffee-vector-illustration_1284-431.png);
+    height: 100%;
+    width: 100%;
+}
+.hal3{
+    background-image: url(gambar/Path\ 5.png);
+    height: 100%;
+    width: 100%;
+}
+.hal4{
+    background-image: url(gambar/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-service-inspector-checking-document-audit-conce.png);
+    height: 100%;
+    width: 100%;
+}
+.hal5{
+    background-image: url(gambar/Path\ 4.png);
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 0px 120px;
+    justify-content: space-between;
+}
+.nav .nama h1{
+    font-size: 35px; 
+    font-family: 'Segoe UI';
+    color: #2CF132;
+
+}
+.nav .menu{
+    width: 514px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.nav .menu a{
+    color: white;
+   text-decoration: none;
+   font-size: 30px;
+   font-family: 'Segoe UI';
+   z-index: 1;
+}
+.bungkus-kiri{
+    margin: 75px 120px;
+    font-family: 'Segoe UI';
+    display: flex;
+    gap: 270px;
+    align-items: center;
+
+}
+.bungkus-kiri .content1{
+    line-height: 25px;
+    padding: 8px 0px;
+    color: rgb(255, 255, 255);
+}
+.bungkus-kiri .content2{
+    line-height: 10px;
+    color: rgb(255, 255, 255);
+}
+.bungkus-kiri .content1 h2{
+    color: #2CF132;
+    font-weight: bold;
+}
+.bungkus-kanan .gambar img{
+    width: 246px;
+    height: 327.5px;
+    border-radius: 55px;
+    outline: 7px solid #2CF132;
+}
+.bungkus-kiri2{
+    padding: 77px 120px;
+    display: flex;
+    gap: 356px;
+    align-items: center;
+}
+.bungkus-kiri2 .gambar2 img{
+    height: 325.5px;
+    width: 244.125px;
+    outline: 7px solid #2CF132;
+    border-radius: 55px;
+}
+.content3{
+    font-family: 'Segoe UI';
+}
+.bungkus-kanan2 .content3 h1{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+.bungkus-kanan2 .content3 table{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.bungkus-kanan3{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 120px;
+}
+.bungkus-kanan3 .judul{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 179px;
+}
+.bungkus-kanan3 .judul h1{
+    line-height: 15px;
+    color: rgb(255, 255, 255);
+}
+.bungkus-kanan3 .judul .content4 .VSC h2{
+    color: rgb(255, 255, 255);
+}
+.bungkus-kanan3 .judul .content4 .VSC .nilai{
+    width: 100%;
+    display: flex;
+}
+.bungkus-kanan3 .judul .content4 .VSC .nilai .nilai-h{
+    border: 10px solid green;
+    background-color: green;
+    width: 60%;
+}
+.bungkus-kanan3 .judul .content4 .VSC .nilai .nilai-p{
+    border: 2px solid white;
+    background-color: white;
+    width: 40%;
+}
+.bungkus-kanan3 .judul .content4 .border2 h2{
+    color: white;
+}
+.bungkus-kanan3 .judul .content4 .border2 .nilai2{
+    width: 100%;
+    display: flex;
+}
+.bungkus-kanan3 .judul .content4 .border2 .nilai2 .nilai2-ha{
+    border: 10px solid green;
+    background-color: green;
+    width:40%;
+}
+.bungkus-kanan3 .judul .content4 .border2 .nilai2 .nilai2-pa{
+    border: 2px solid white;
+    background-color: white;
+    width: 50%;
+}
+.bungkus-kanan3 .judul .content4 .border3 h2{
+    color: rgb(255, 255, 255);
+}
+.bungkus-kanan3 .judul .content4 .border3 .nilai3{
+    width: 100%;
+    display: flex;
+}
+.bungkus-kanan3 .judul .content4 .border3 .nilai3 .nilai3-hb{
+    border: 10px solid green;
+    background-color: green;
+    width: 20%;
+}
+.bungkus-kanan3 .judul .content4 .border3 .nilai3 .nilai3-pb{
+    border: 2px solid white;
+    background-color: white;
+    width: 70%;
+}
+.judul2 h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 60px 120px;
+    margin: 0;
+}
+.content5 .bungkus{
+    margin: 0px 120px;
+    display: flex;
+}
+.content5 .bungkus img{
+    margin-top: 30px;
+    width: 200px;
+    height: 160px;
+}
+.content5 .bungkus .satu{
+    color: white;
+    border: 2px solid black;
+    height: 33.3%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    align-items: center;
+}
+.content5 .bungkus .satu .bungkus-kata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content5 .bungkus .satu .bungkus-kata .margin{
+    margin: 0px 0px;
+}
+.judul3 h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 100px 120px;
+    margin: 0;
+}
+.bungkus_kiri3{
+    display: flex;
+    margin: 0 121px;
+    gap: 27px;
+}
+.contact{
+    padding: 0px 50px;
+    margin-bottom: 30px;
+}
+.input{
+    margin: 10px 0px;
+}
+.bungkus_kiri3 .contact .message,
+    textarea{
+        border: 2px solid white;
+        background-color: transparent;
+        padding: 12px 15px;
+        margin: px 0;
+        width: 383.75px;
+        display: flex;
+        color: white;
+}
+.bungkus_kiri3 .contact form button{
+    border-radius: 20px;
+    width: 152px;
+    height: 30px;
+}
+.bungkus_kiri3 .contact form button:hover{
+    color: green;
+    background-color: #2CF132;
+    text-transform: uppercase;
+    transition: 80ms ease-out;
+}
+.bungkus_kiri3 .bungkus_kanan3{
+    color: white;
+}
+
+
+/* contact */
+.bungkus_kanan3 td{
+    color: white;
+    padding: 30px 30px;
+    padding-bottom: 0;
+}
+.bungkus_kiri3 .bungkus_kanan3{
+    border: 2px solid white;
+    margin-bottom: 30px ;
+}
+
+
+
+
